@@ -1,0 +1,50 @@
+.video-card {
+  background-color: #202020;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.video-card:hover {
+  background-color: #272727;
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  width: 100%;
+  display: block;
+  background-color: #333;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.card-info {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.channel-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.text-info h4 {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-info p {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.2;
+}
